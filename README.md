@@ -11,5 +11,5 @@ The completed Project in C++ resulted In an Console Application
 - When exiting the application a string file will be saved if a user edited strings from the stored string in memory from a already existing string file or from user input.
 
 # Ideas To-Do
-- Implement Turing Machine To go infinitely to the right
+- Implement Turing Machine To go infinitely to the left
 - Implement Non-Determinism 
