@@ -1,0 +1,22 @@
+This Turing machine accepts the language of an input string that follows 
+    any number of repeated AZ or is an empty string.
+
+STATES: q1 q2 q3
+
+INPUT_ALPHABET: A Z
+
+tape_alphabet: A Z X Y D #
+
+TRANSITION_FUNCTION: 
+    q1 Z    q2 Y R 
+    q1 #    q3 # R
+    q2 Y    q2 D R 
+    q2 X    q1 X R 
+    q2 A    q2 X L 
+    
+
+INITIAL_STATE: q1
+
+BLANK_CHARACTER: #
+
+FINAL_STATES: q3
